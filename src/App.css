@@ -1,0 +1,5 @@
+/* Reset or legacy styles if needed, currently using index.css for everything */
+.logo-img {
+  height: auto;
+  width: auto;
+}
