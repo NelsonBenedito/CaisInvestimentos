@@ -127,7 +127,8 @@
     "capital": "Investment Equity",
     "select_default": "Select an option...",
     "btn": "Request Advisor Contact",
-    "privacy": "Your data is confidential and protected."
+    "privacy": "Your data is confidential and protected.",
+    "sending": "Sending..."
   },
   "footer": {
     "desc": "Institutional guidance and precision in strategic partnership with Necton | BTG Pactual.",

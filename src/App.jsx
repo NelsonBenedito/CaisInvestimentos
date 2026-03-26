@@ -695,15 +695,42 @@ const TeamSection = () => {
 
 const LeadCaptureSection = () => {
   const { t } = useTranslation();
-  const [formData, setFormData] = useState({ name: '', email: '', phone: '', capital: '' });
+  const [formData, setFormData] = useState({ name: '', email: '', phone: '', capital: '', honeypot: '' });
   const [submitted, setSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [mountTime] = useState(Date.now());
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Simulate API call
+    
+    // Security Check 1: Honeypot (if bot fills the hidden field)
+    if (formData.honeypot) {
+      console.warn("Bot detected via honeypot.");
+      return; 
+    }
+
+    // Security Check 2: Time-based bot detection (less than 2 seconds to fill form)
+    if (Date.now() - mountTime < 2000) {
+      console.warn("Submission too fast. Possible bot.");
+      return;
+    }
+
+    setIsLoading(true);
+
+    // Sanitize data
+    const sanitizedData = {
+      name: formData.name.trim().substring(0, 100),
+      email: formData.email.trim().toLowerCase(),
+      phone: formData.phone.trim().replace(/[^\d()-\s+]/g, ''),
+      capital: formData.capital
+    };
+
+    // Simulate API call with the sanitized data
     setTimeout(() => {
+      console.log("Submitting secure data:", sanitizedData);
       setSubmitted(true);
-    }, 1000);
+      setIsLoading(false);
+    }, 1500);
   };
 
   return (
@@ -782,6 +809,17 @@ const LeadCaptureSection = () => {
                     </div>
                   </div>
 
+                  {/* Honeypot Field (Hidden from humans) */}
+                  <div className="hidden" aria-hidden="true">
+                    <input
+                      type="text"
+                      name="website"
+                      tabIndex="-1"
+                      autoComplete="off"
+                      onChange={(e) => setFormData({ ...formData, honeypot: e.target.value })}
+                    />
+                  </div>
+
                   <div className="space-y-2">
                     <label className="text-sm font-medium text-brand-blue">{t('contact.capital')}</label>
                     <select
@@ -796,8 +834,19 @@ const LeadCaptureSection = () => {
                     </select>
                   </div>
 
-                  <Button type="submit" className="w-full bg-brand-gold hover:bg-[#c9a55e] text-brand-blue font-semibold py-6 text-base rounded-md mt-4 transition-all">
-                    {t('contact.btn')}
+                  <Button 
+                    type="submit" 
+                    disabled={isLoading}
+                    className="w-full bg-brand-gold hover:bg-[#c9a55e] disabled:bg-slate-200 disabled:text-slate-400 text-brand-blue font-semibold py-6 text-base rounded-md mt-4 transition-all relative overflow-hidden"
+                  >
+                    {isLoading ? (
+                      <div className="flex items-center gap-2">
+                        <div className="w-4 h-4 border-2 border-brand-blue/30 border-t-brand-blue rounded-full animate-spin" />
+                        <span>{t('contact.sending') || 'Enviando...'}</span>
+                      </div>
+                    ) : (
+                      t('contact.btn')
+                    )}
                   </Button>
                   <p className="text-xs text-muted-foreground text-center mt-4">
                     {t('contact.privacy')}

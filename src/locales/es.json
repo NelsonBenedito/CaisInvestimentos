@@ -127,7 +127,8 @@
     "capital": "Patrimonio para Inversión",
     "select_default": "Seleccione una opción...",
     "btn": "Solicitar contacto de asesor",
-    "privacy": "Sus datos son confidenciales y están protegidos."
+    "privacy": "Sus datos son confidenciales y están protegidos.",
+    "sending": "Enviando..."
   },
   "footer": {
     "desc": "Orientación y precisión institucional en asociación estratégica con Necton | BTG Pactual.",
