@@ -1,0 +1,164 @@
+{
+  "navbar": {
+    "a_cais": "A Cais",
+    "investimentos": "Investimentos",
+    "contato": "Fale Conosco",
+    "simular_investimentos": "Simular Investimentos",
+    "fundos_de_investimento": "Fundos de Investimento",
+    "renda_fixa": "Renda Fixa",
+    "renda_variavel": "Renda Variável",
+    "fundos_imobiliarios": "Fundos Imobiliários",
+    "previdencia_privada": "Previdência Privada",
+    "alternativos": "Alternativos",
+    "cambio_e_remessas": "Câmbio e Remessas",
+    "seguro_de_vida": "Seguro de Vida",
+    "offshore": "Offshore",
+    "destaque": "Destaque",
+    "solucoes_completas": "Soluções Completas para seu Patrimônio",
+    "para_voce": "Para Você",
+    "para_voce_desc": "Conta corrente, cartão exclusivo, investimentos e advisory. Descubra os benefícios de ser um cliente Cais Investimentos conectado com a tecnologia BTG Pactual.",
+    "abra_sua_conta": "Abra sua conta de investimentos",
+    "melhores_produtos": "Os melhores produtos do mercado na palma da mão.",
+    "advisory_estrategico": "Advisory Estratégico",
+    "solucoes_sofisticadas": "Soluções sofisticadas de reestruturação de dívida (Debt) e M&A."
+  },
+  "hero": {
+    "title": "Invista com atendimento personalizado e produtos de alto nível",
+    "subtitle": "Entre para a nova era de investimentos e tenha a carteira ideal para as suas necessidades e objetivos."
+  },
+  "stats": {
+    "custodia": {
+      "label": "Custódia Segura",
+      "value": "BTG Pactual"
+    },
+    "assessoria": {
+      "label": "Assessoria Especialista",
+      "value": "CEA | CFP®"
+    },
+    "escritorio": {
+      "label": "Escritório Destaque",
+      "value": "Top 10 Necton"
+    },
+    "presenca": {
+      "label": "Presença Nacional",
+      "value": "ES & PE"
+    }
+  },
+  "advisory": {
+    "title": "Sua estratégia, nossa expertise",
+    "subtitle": "Soluções especializadas para proteger e impulsionar o seu patrimônio pessoal e a saúde financeira do seu negócio.",
+    "personal": {
+      "title": "Assessoria Pessoal de Investimentos",
+      "p1": "Nosso time de especialistas analisa seu perfil de risco, seus objetivos de curto e longo prazo, e constrói uma estratégia de investimento sob medida.",
+      "p2": "Seja você um investidor iniciante ou experiente, estamos ao seu lado para maximizar seus retornos com segurança e responsabilidade.",
+      "p3": "Com a Cais, você navega no mercado financeiro com confiança.",
+      "li1": "Serviço personalizado",
+      "li2": "Metas financeiras individuais"
+    },
+    "business": {
+      "title": "Assessoria Empresarial de Investimentos",
+      "p1": "Nossa assessoria empresarial é desenhada para ajudar sua organização a otimizar a gestão de seus recursos financeiros.",
+      "p2": "Trabalhamos junto à sua equipe para criar estratégias que protejam e ampliem o patrimônio da empresa, diversificando investimentos e garantindo a sustentabilidade financeira no longo prazo.",
+      "p3": "Com a Cais, sua empresa encontra o caminho certo para crescer de forma sólida e segura no mercado financeiro.",
+      "li1": "Eficiente e estratégica",
+      "li2": "Promove crescimento sustentável"
+    }
+  },
+  "cards": {
+    "title": "Cartão Ultrablue BTG Pactual",
+    "desc": "Vá mais longe com até 3,5 pontos por dólar gasto ou até 1,7% de cashback em todas as suas compras no crédito, concierge dedicado para apoiar o planejamento de viagens, eventos e celebrações, acessos ilimitados às Salas VIP LoungeKey e muito mais.",
+    "btn": "Seja Ultrablue",
+    "f1": {
+      "title": "Conta corrente digital",
+      "desc": "Uma conta corrente completa e sem taxa de manutenção com dicas valiosas sobre suas finanças."
+    },
+    "f2": {
+      "title": "Cartão de Crédito",
+      "desc": "Diferentes opções de cartão para você personalizar e escolher os benefícios que mais combinam com você."
+    },
+    "f3": {
+      "title": "Cartão Black",
+      "desc": "O cartão de crédito Black em que você escolhe os benefícios e não paga anuidade ao manter R$ 30 mil investidos com a gente."
+    },
+    "f4": {
+      "title": "Conta de Não Residente (CNR)",
+      "desc": "O serviço ideal para quem quer ter uma conta no Brasil, morando em outro país."
+    },
+    "saiba_mais": "Saiba mais"
+  },
+  "simulator": {
+    "title": "Simule seus",
+    "title_highlight": "Investimentos",
+    "desc": "Descubra o potencial do seu patrimônio com a tecnologia e a expertise do BTG Pactual. Construa cenários personalizados e planeje seu futuro financeiro com precisão.",
+    "tech": "Tecnologia BTG Pactual",
+    "box_title": "Acesse o Simulador Oficial",
+    "box_desc": "Uma ferramenta completa para projetar rentabilidades e comparar ativos do mercado.",
+    "btn": "Iniciar Simulação"
+  },
+  "team": {
+    "title": "Nosso Capital Intelectual",
+    "desc": "Liderança estratégica composta por especialistas C-Level focados na alta gestão de fortunas.",
+    "m0": {
+      "role": "Diretor de Investimentos",
+      "bio": "Administrador de Empresas, Especialista em Investimentos CEA e Planejador Financeiro CFP®."
+    },
+    "m1": {
+      "role": "Especialista em Agronegócios",
+      "bio": "Especialista em soluções de Seguros e Logística voltadas ao setor Agro."
+    },
+    "m2": {
+      "role": "Gestão de Processos",
+      "bio": "Expressiva vivência em gestão corporativa de grandes companhias."
+    }
+  },
+  "contact": {
+    "title1": "Dê o próximo passo para o seu",
+    "title2": "futuro financeiro.",
+    "desc": "Deixe seus dados e um dos nossos assessores entrará em contato para entender suas demandas e apresentar soluções sob medida para o seu patrimônio.",
+    "exclusive": "Atendimento Exclusivo",
+    "exclusive_desc": "Especialistas dedicados aos seus objetivos.",
+    "success": "Solicitação enviada!",
+    "success_desc": "Nossa equipe entrará em contato em breve.",
+    "new_msg": "Enviar nova mensagem",
+    "form_title": "Solicite um contato",
+    "name": "Nome Completo",
+    "email": "E-mail",
+    "phone": "WhatsApp",
+    "capital": "Patrimônio para Investimento",
+    "select_default": "Selecione uma opção...",
+    "btn": "Solicitar contato de assessor",
+    "privacy": "Seus dados estão confidenciais e protegidos."
+  },
+  "footer": {
+    "desc": "Orientação e precisão institucional em parceria estratégica com a Necton | BTG Pactual.",
+    "hq": "Nossas Sedes",
+    "vitoria": "Vitória / Região (ES)",
+    "recife": "Recife (PE)",
+    "service": "Atendimento Institucional",
+    "ouvidoria": "Ouvidoria BTG Pactual",
+    "rights": "© 2026 Cais Investimentos. Todos os direitos reservados.",
+    "disclaimer": {
+      "p1": "Cais Investimentos Assessor De Investimento Ltda, inscrita sob o CNPJ nº 49.404.040/0001-98 é uma empresa de assessoria de investimento devidamente registrada na Comissão de Valores Mobiliários (CVM), na forma da Resolução CVM 178. Atuando no mercado financeiro como preposto do Banco BTG Pactual S/A, o que pode ser verificado através do site da ",
+      "p1_ancord": "ANCORD",
+      "p1_ou": " ou através do site da ",
+      "p1_necton": "Necton Investimentos",
+      "p1_end": ".",
+      "p2": "O Banco BTG Pactual S/A é instituição financeira integrante do sistema de distribuição de títulos e valores mobiliários, atuando como intermediário das operações de seus clientes. Na forma da legislação da CVM, o assessor de investimento não pode administrar ou gerir o patrimônio de investidores, pois é um preposto do intermediário e depende da autorização prévia do cliente para realizar operações no mercado financeiro. Na realização de operações com derivativos, existe a possibilidade de significativas perdas patrimoniais, inclusive, superiores aos valores investidos. A assessoria pode exercer outras atividades relacionadas ao mercado financeiro, de capitais, securitário e de previdência e capitalização, que podem ou não ser em parceria com o BTG Pactual ou demais instituições, e que podem ou não ser realizadas pela mesma pessoa jurídica da assessoria. Especificamente quanto às atividades de gestão, consultoria e análise de valores mobiliários, estas podem vir a ser desempenhadas por empresas do grupo e nunca pela própria assessoria de investimentos, considerando que são atividades conflitantes e que exigem segregação. O investimento em ações é um investimento de risco e rentabilidade passada não é garantia de rentabilidade futura. Para reclamações, favor contatar a Ouvidoria do Banco BTG Pactual S/A no telefone no 0800-722-0048.",
+      "p3": "Para acessar nossa lista de sócios, ",
+      "p3_link": "clique aqui"
+    }
+  },
+  "market": {
+    "title": "Acompanhamento de Mercado",
+    "desc": "Monitoramento racional de ativos para decisões de alta performance em tempo real.",
+    "btn": "Ver todos os ativos",
+    "high": "Maiores Altas",
+    "low": "Maiores Baixas",
+    "loading": "Carregando dados de mercado..."
+  },
+  "about": {
+    "title": "Sobre nós",
+    "p1": "A Cais é um escritório de investimentos que combina mais de 30 anos de experiência com novos talentos para oferecer portfólios personalizados, transparência e resultados alinhados às necessidades dos clientes. Inspirada na rosa dos ventos, a Cais simboliza orientação e confiança no mercado financeiro.",
+    "p2": "Bem-vindos à sua casa de investimentos!"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "navbar": {
+    "a_cais": "The Cais",
+    "investimentos": "Investments",
+    "seja_parceiro": "Be a Partner",
+    "simular_investimentos": "Simulate Investments",
+    "fundos_de_investimento": "Investment Funds",
+    "renda_fixa": "Fixed Income",
+    "renda_variavel": "Variable Income",
+    "fundos_imobiliarios": "Real Estate Funds",
+    "previdencia_privada": "Private Pension",
+    "alternativos": "Alternative Investments",
+    "cambio_e_remessas": "Foreign Exchange",
+    "seguro_de_vida": "Life Insurance",
+    "offshore": "Offshore",
+    "destaque": "Featured",
+    "solucoes_completas": "Complete Solutions for your Wealth",
+    "para_voce": "For You",
+    "para_voce_desc": "Checking account, exclusive credit card, investments, and advisory. Discover the benefits of being a Cais Investimentos client connected to BTG Pactual technology.",
+    "abra_sua_conta": "Open your investment account",
+    "melhores_produtos": "The best market products in the palm of your hand.",
+    "advisory_estrategico": "Strategic Advisory",
+    "solucoes_sofisticadas": "Sophisticated solutions for debt restructuring and M&A."
+  },
+  "hero": {
+    "title": "Invest with personalized service and top-tier products",
+    "subtitle": "Enter the new era of investments and get the ideal portfolio for your needs and goals."
+  },
+  "stats": {
+    "custodia": {
+      "label": "Secure Custody",
+      "value": "BTG Pactual"
+    },
+    "assessoria": {
+      "label": "Expert Advisory",
+      "value": "CEA | CFP®"
+    },
+    "escritorio": {
+      "label": "Featured Office",
+      "value": "Top 10 Necton"
+    },
+    "presenca": {
+      "label": "National Presence",
+      "value": "ES & PE"
+    }
+  },
+  "advisory": {
+    "title": "Your strategy, our expertise",
+    "subtitle": "Specialized solutions to protect and boost your personal wealth and your business's financial health.",
+    "personal": {
+      "title": "Personal Investment Advisory",
+      "p1": "Our team of experts analyzes your risk profile, your short and long-term goals, and builds a tailor-made investment strategy.",
+      "p2": "Whether you are a beginner or an experienced investor, we are by your side to maximize your returns safely and responsibly.",
+      "p3": "With Cais, you navigate the financial market with confidence.",
+      "li1": "Personalized service",
+      "li2": "Individual financial goals"
+    },
+    "business": {
+      "title": "Business Investment Advisory",
+      "p1": "Our corporate advisory is designed to help your organization optimize the management of its financial resources.",
+      "p2": "We work with your team to create strategies that protect and expand the company's equity, diversifying investments and ensuring long-term financial sustainability.",
+      "p3": "With Cais, your company finds the right path to grow solidly and safely in the financial market.",
+      "li1": "Efficient and strategic",
+      "li2": "Promotes sustainable growth"
+    }
+  },
+  "cards": {
+    "title": "Ultrablue BTG Pactual Card",
+    "desc": "Go further with up to 3.5 points per dollar spent or up to 1.7% cashback on all credit purchases, a dedicated concierge to support planning travel, events, and celebrations, unlimited access to LoungeKey VIP Lounges, and much more.",
+    "btn": "Be Ultrablue",
+    "f1": {
+      "title": "Digital checking account",
+      "desc": "A complete checking account with no maintenance fees and valuable tips about your finances."
+    },
+    "f2": {
+      "title": "Credit Card",
+      "desc": "Different card options for you to customize and choose the benefits that best match you."
+    },
+    "f3": {
+      "title": "Black Card",
+      "desc": "The Black credit card where you choose the benefits and pay no annual fee when keeping R$ 30,000 invested with us."
+    },
+    "f4": {
+      "title": "Non-Resident Account (CNR)",
+      "desc": "The ideal service for those who want to have an account in Brazil while living in another country."
+    },
+    "saiba_mais": "Learn more"
+  },
+  "simulator": {
+    "title": "Simulate your",
+    "title_highlight": "Investments",
+    "desc": "Discover your wealth's potential with BTG Pactual's technology and expertise. Build customized scenarios and plan your financial future with precision.",
+    "tech": "BTG Pactual Technology",
+    "box_title": "Access the Official Simulator",
+    "box_desc": "A complete tool to project returns and compare market assets.",
+    "btn": "Start Simulation"
+  },
+  "team": {
+    "title": "Our Intellectual Capital",
+    "desc": "Strategic leadership comprising C-Level experts focused on high wealth management.",
+    "m0": {
+      "role": "Investment Director",
+      "bio": "Business Administrator, CEA Investment Expert and CFP® Financial Planner."
+    },
+    "m1": {
+      "role": "Agribusiness Expert",
+      "bio": "Expert in Insurance and Logistics solutions aimed at the Agribusiness sector."
+    },
+    "m2": {
+      "role": "Process Management",
+      "bio": "Extensive experience in corporate management of large companies."
+    }
+  },
+  "contact": {
+    "title1": "Take the next step for your",
+    "title2": "financial future.",
+    "desc": "Leave your details and one of our advisors will contact you to understand your demands and present tailor-made solutions for your wealth.",
+    "exclusive": "Exclusive Service",
+    "exclusive_desc": "Dedicated experts for your goals.",
+    "success": "Request sent!",
+    "success_desc": "Our team will contact you shortly.",
+    "new_msg": "Send a new message",
+    "form_title": "Request a contact",
+    "name": "Full Name",
+    "email": "E-mail",
+    "phone": "WhatsApp",
+    "capital": "Investment Equity",
+    "select_default": "Select an option...",
+    "btn": "Request Advisor Contact",
+    "privacy": "Your data is confidential and protected."
+  },
+  "footer": {
+    "desc": "Institutional guidance and precision in strategic partnership with Necton | BTG Pactual.",
+    "hq": "Our Headquarters",
+    "vitoria": "Vitória / Region (ES)",
+    "recife": "Recife (PE)",
+    "service": "Institutional Service",
+    "ouvidoria": "BTG Pactual Ombudsman",
+    "rights": "© 2026 Cais Investimentos. All rights reserved.",
+    "disclaimer": {
+      "p1": "Cais Investimentos Assessor De Investimento Ltda, registered under CNPJ No. 49.404.040/0001-98, is an investment advisory firm duly registered with the Brazilian Securities and Exchange Commission (CVM) under CVM Resolution 178. Acting in the financial market as an agent of Banco BTG Pactual S/A, which can be verified through the website of ",
+      "p1_ancord": "ANCORD",
+      "p1_ou": " or through the website of ",
+      "p1_necton": "Necton Investimentos",
+      "p1_end": ".",
+      "p2": "Banco BTG Pactual S/A is a financial institution that is part of the securities distribution system, acting as an intermediary for its clients' transactions. Under CVM legislation, an investment advisor cannot administer or manage investors' assets, as it is an agent of the intermediary and depends on the client's prior authorization to execute transactions in the financial market. When performing transactions with derivatives, there is the possibility of significant asset losses, including those exceeding the amounts invested. The advisory service may perform other activities related to the financial, capital, insurance, and supplementary pension and capitalization markets, which may or may not be in partnership with BTG Pactual or other institutions, and which may or may not be carried out by the same legal entity as the advisory service. Specifically regarding the activities of managing, consulting, and analyzing securities, these may be performed by group companies and never by the investment advisory firm itself, considering that these are conflicting activities requiring segregation. Investment in stocks is a risk investment and past profitability is not a guarantee of future profitability. For complaints, please contact the Banco BTG Pactual S/A Ombudsman at 0800-722-0048.",
+      "p3": "To access our list of partners, ",
+      "p3_link": "click here"
+    }
+  },
+  "market": {
+    "title": "Market Tracking",
+    "desc": "Rational asset monitoring for high-performance real-time decisions.",
+    "btn": "View all assets",
+    "high": "Top Gainers",
+    "low": "Top Losers",
+    "loading": "Loading market data..."
+  },
+  "about": {
+    "title": "About us",
+    "p1": "Cais is an investment firm that combines over 30 years of experience with new talent to offer personalized portfolios, transparency, and results aligned with clients' needs. Inspired by the compass rose, Cais symbolizes guidance and trust in the financial market.",
+    "p2": "Welcome to your investment home!"
+  }
+}
