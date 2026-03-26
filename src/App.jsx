@@ -539,7 +539,7 @@ const CardSection = () => {
             <FadeIn direction="left" delay={0.2} className="relative group">
               <div className="absolute inset-0 bg-[#0d2a45]/20 blur-3xl rounded-full scale-90 group-hover:scale-105 transition-transform duration-700" />
               <img
-                src="./public/cartao-ultrablue.png"
+                src="/cartao-ultrablue.png"
                 alt="Cartão Ultrablue BTG Pactual"
                 className="w-full max-w-[480px] h-auto object-cover relative z-10 drop-shadow-2xl group-hover:scale-105 transition-transform duration-700"
               />
