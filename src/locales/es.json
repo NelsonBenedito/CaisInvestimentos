@@ -1,4 +1,9 @@
 {
+  "404": {
+    "title": "Página no encontrada",
+    "desc": "El camino que estás buscando no existe o ha sido movido.",
+    "btn": "Volver al Inicio"
+  },
   "navbar": {
     "a_cais": "La Cais",
     "investimentos": "Inversiones",

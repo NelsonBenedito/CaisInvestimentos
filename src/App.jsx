@@ -9,6 +9,7 @@ import {
 } from 'lucide-react';
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 
 const BRAPI_TOKEN = import.meta.env.VITE_BRAPI_API_KEY;
 
@@ -942,22 +943,13 @@ const Footer = () => {
   );
 };
 
-const App = () => {
+const Home = () => {
   const { t } = useTranslation();
-
-  useEffect(() => {
-    document.documentElement.classList.remove('dark');
-    document.documentElement.classList.add('light');
-    localStorage.setItem('theme', 'light');
-  }, []);
-
   return (
-    <div className="min-h-screen bg-slate-50 text-foreground font-inter selection:bg-brand-pink selection:text-brand-blue transition-colors duration-300 overflow-x-hidden">
+    <>
       <Navbar />
       <Hero />
-      <StockTicker stocks={[]} /> {/* Empty array will just show nothing initially until Brapi fetches, or we can move the state up if we want it global */}
-
-      {/* Quick stats section under hero */}
+      <StockTicker stocks={[]} />
       <section className="py-12 bg-white border-b border-border">
         <div className="container px-6 lg:px-20 grid grid-cols-2 md:grid-cols-4 gap-8 md:divide-x divide-slate-100">
           {[
@@ -974,16 +966,62 @@ const App = () => {
           ))}
         </div>
       </section>
-
       <AboutSection />
       <AdvisorySection />
       <CardSection />
-      {/* <MarketIntelligence /> */}
       <SimulatorSection />
       <TeamSection />
       <LeadCaptureSection />
       <Footer />
+    </>
+  );
+};
+
+const NotFound = () => {
+  const { t } = useTranslation();
+  return (
+    <div className="min-h-screen bg-slate-50 flex flex-col pt-20">
+      <Navbar />
+      <div className="flex-1 flex flex-col items-center justify-center p-6 text-center">
+        <FadeIn direction="up">
+          <div className="w-24 h-24 bg-brand-blue/5 rounded-full flex items-center justify-center mx-auto mb-8 border border-brand-blue/10">
+            <ShieldCheck className="w-12 h-12 text-brand-blue opacity-40" />
+          </div>
+          <h1 className="text-7xl md:text-9xl font-bold text-brand-blue mb-6">404</h1>
+          <h2 className="text-2xl md:text-3xl font-medium text-brand-blue mb-4">
+            {t('404.title')}
+          </h2>
+          <p className="text-muted-foreground font-light mb-12 max-w-md mx-auto leading-relaxed">
+            {t('404.desc')}
+          </p>
+          <Link to="/">
+            <Button className="bg-brand-blue hover:bg-[#0d2a45] text-white px-10 py-7 text-base rounded-full shadow-lg shadow-brand-blue/10">
+              {t('404.btn')}
+            </Button>
+          </Link>
+        </FadeIn>
+      </div>
+      <Footer />
     </div>
+  );
+};
+
+const App = () => {
+  useEffect(() => {
+    document.documentElement.classList.remove('dark');
+    document.documentElement.classList.add('light');
+    localStorage.setItem('theme', 'light');
+  }, []);
+
+  return (
+    <Router>
+      <div className="min-h-screen bg-slate-50 text-foreground font-inter selection:bg-brand-pink selection:text-brand-blue transition-colors duration-300 overflow-x-hidden">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 
