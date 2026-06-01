@@ -10,6 +10,8 @@ import {
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Linktree from './pages/Linktree';
+import Admin from './pages/Admin';
 
 const BRAPI_TOKEN = import.meta.env.VITE_BRAPI_API_KEY;
 
@@ -1018,6 +1020,8 @@ const App = () => {
       <div className="min-h-screen bg-slate-50 text-foreground font-inter selection:bg-brand-pink selection:text-brand-blue transition-colors duration-300 overflow-x-hidden">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/links" element={<Linktree />} />
+          <Route path="/cais-dashboard-5f9a2b1c" element={<Admin />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </div>
